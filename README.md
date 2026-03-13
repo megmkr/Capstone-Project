@@ -26,3 +26,5 @@ Above everything, satisfaction levels are most imperative to employee retention.
 The model has a 98% precision, meaning it almost never falsely predicts an employee to leave when they were not going to. However, false negatives are slightly more likely to happen. The model can be improved perhaps by adding nonlinear features. This can include an overworked tag, seniority tag, or a feature that is determined by sasisfaction_level and project thresholds rather than a ratio.
 We could do further research into being able to predict satisfaction since that is the leading factor of employee retention. If we are able to see the leading features then we can make the proper accomdations.
 
+![Confusion Matrix](output2.png)
+![ROC Curve](output.png)
