@@ -20,6 +20,7 @@ The F1 score is a single metric that tells you how well a machine learning model
 The provided model has a .95 F1 score, a near perfect result.
 As displayed by the blue line in the ROC curve, the false positive rate is near 0% while the true positive rate is near 100%. 
 A perfect model would be a point in the upper left corner.
+![ROC Curve](output.png)
 
 ## Conclusion
 Above everything, satisfaction levels are most imperative to employee retention. I reccomend that we prioritize employee satisfaction as well as better distributing projects across employees. Being overworked is a driving factor in employee retention as well.
@@ -27,4 +28,4 @@ The model has a 98% precision, meaning it almost never falsely predicts an emplo
 We could do further research into being able to predict satisfaction since that is the leading factor of employee retention. If we are able to see the leading features then we can make the proper accomdations.
 
 ![Confusion Matrix](output2.png)
-![ROC Curve](output.png)
+
