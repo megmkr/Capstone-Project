@@ -3,12 +3,12 @@ This document presents details on the process and results of creating a machine 
 
 ## Problem
 High employee retention rates typically reflect a satisfied, engaged workforce, which is essential for sustainable growth. To support this effort, we will develop an employee retention model aimed at reducing turnover and proactively identifying employees at risk of leaving. A reliable and accurate model will not only help prevent unwanted attrition but also uncover the key factors that influence retention. Specifically, the model will help answer critical questions such as:
-Which employees are most likely to quit or be terminated?
-What factors contribute to employees leaving the company?
-What actions can the organization take to improve retention?
+* Which employees are most likely to quit or be terminated?
+* What factors contribute to employees leaving the company?
+* What actions can the organization take to improve retention?
 
-* ## Response
-* The team developed two supervised machine learning models to classify whether a user is likely to churn or not. We decided the best models to use were:
+## Response
+The team developed two supervised machine learning models to classify whether a user is likely to churn or not. We decided the best models to use were:
 Random Forest and XGBoost.
 These models are known for creating accurate and reliable predictions and require little preprocessing or transforming of the data, allowing us to speed the
 model creation process along.
